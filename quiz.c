@@ -19,7 +19,8 @@ quiz.max = 0;
 
 
 while (1) {
-if(play(&quiz) == -1) break;
+  
+   if(play(&quiz) == -1) break;
 }
 return 0;
 }
